@@ -1,0 +1,15 @@
+print("\t\t Trust Fund Buddy")
+print("Totals yout monthly spending so that your trust fund doesn't run out\n(abd you're forced to get a real job).\n")
+print("\nPlease enter the requested, monthly const. Since you're rich, ignore pennies end use only dollar amounts.\n\n")
+a = int(input("Lamboringini Tune-Ups : "))
+b = int(input("Manahattan Apartmanet : "))
+c = int(input("Private Jet Rental : "))
+d = int(input("Gifts : "))
+e = int(input("Dinning Out : "))
+f = int(input("Staff (butlers, chef, driver, assistant) : "))
+g = int(input("Rersonal Guru and Coach : "))
+h = int(input("Computer Games : "))
+
+Gtotal = int(a+b+c+d+e+f+g+h)
+
+    print("\nGrand Total : ", Gtotal)
